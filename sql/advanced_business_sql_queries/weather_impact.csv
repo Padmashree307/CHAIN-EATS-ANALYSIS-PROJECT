@@ -1,0 +1,7 @@
+temp_category,is_rainy,weather_condition,number_of_days,avg_daily_revenue,avg_daily_profit,avg_items_sold,avg_weather_score
+Hot,1,Rainy,197,5769.04,3609.77,588.16,0.85
+Hot,0,Clear,416,5711.98,3574.23,582.4,1.0
+Cold,0,Clear,200,5575.11,3488.28,568.61,0.95
+Cold,1,Rainy,97,5526.54,3458.74,562.63,0.8
+Mild,0,Clear,564,5279.2,3303.45,538.13,1.1
+Mild,1,Rainy,266,5264.22,3293.93,536.98,0.95
