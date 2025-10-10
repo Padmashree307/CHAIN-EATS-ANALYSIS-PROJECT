@@ -1,4 +1,4 @@
-# 🍽️ ChainEats Analytics: Restaurant Chain Performance Optimization
+# ChainEats Analytics: Restaurant Chain Performance Optimization
 
 A comprehensive data analytics project delivering **$800K in projected annual improvements** through data-driven insights.
 
@@ -34,20 +34,9 @@ Comprehensive analytics covering location performance, menu optimization, season
 
 ```
 CHAIN-EATS-ANALYSIS-PROJECT/
-├── README.md
 ├── data/
 │   ├── raw/
-│   │   ├── locations.csv
-│   │   ├── menu_items.csv
-│   │   ├── sales_data.parquet
-│   │   └── weather_data.csv
 │   └── cleaned/
-│       ├── daily_sales_summary.csv
-│       ├── locations_cleaned.csv
-│       ├── menu_items_cleaned.csv
-│       ├── monthly_sales_summary.csv
-│       ├── sales_data_cleaned.parquet
-│       └── weather_data_cleaned.csv
 ├── notebooks/
 │   ├── 01_Foundation & Data Generation.ipynb
 │   ├── 02_Data Quality Assessment & Cleaning.ipynb
@@ -75,6 +64,7 @@ CHAIN-EATS-ANALYSIS-PROJECT/
 │   ├── V4-Location Performance vs Rent Analysis.png
 │   ├── V5-Weather Impact Analysis.png
 │   └── V6-Executive Dashboard.png
+├── README.md
 ```
 
 ---
@@ -101,17 +91,17 @@ CHAIN-EATS-ANALYSIS-PROJECT/
 
 ## 📈 Key Business Insights
 
-### 🏆 Top Performers
+### Top Performers
 - **Best Cities:** Miami leads with $47K average profit per location
 - **Optimal Location Types:** Airport locations generate $2,400 daily profit average
 - **Peak Season:** Summer shows 20% higher revenue than baseline
 
-### ⚠️ Improvement Opportunities
+### Improvement Opportunities
 - High Rent Burden: 8 locations spending >15% revenue on rent
 - Underperformers: 11 locations below benchmark requiring intervention
 - Menu Optimization: 3 categories need pricing or positioning changes
 
-### 🌤️ Weather Intelligence
+### Weather Intelligence
 - Revenue Impact: 25% swing between optimal and poor weather conditions
 - Operational Insight: Mild temperatures + clear skies = peak performance days
 
@@ -142,33 +132,11 @@ CHAIN-EATS-ANALYSIS-PROJECT/
 - **SQLite:** Production-ready database with optimized schema design
 - **Data Visualization:** Professional charts for executive presentation
 
-### **Key SQL Example**
-```sql
--- Location Performance Benchmarking
-WITH location_metrics AS (
-    SELECT location_id, location_type, 
-           AVG(daily_revenue) as avg_revenue
-    FROM daily_summary 
-    GROUP BY location_id, location_type
-),
-benchmarks AS (
-    SELECT location_type, 
-           AVG(avg_revenue) as benchmark_revenue
-    FROM location_metrics 
-    GROUP BY location_type
-)
-SELECT lm.location_id, lm.avg_revenue, b.benchmark_revenue,
-       (lm.avg_revenue - b.benchmark_revenue) * 100.0 / b.benchmark_revenue
-       as performance_vs_benchmark_percent
-FROM location_metrics lm
-JOIN benchmarks b ON lm.location_type = b.location_type;
-```
-
 ### **Data Quality Achievements**
-- ✅ Zero missing values across all datasets
-- ✅ 100% referential integrity maintained between tables
-- ✅ Business logic validation for all calculated metrics
-- ✅ Realistic data patterns with seasonal and weather correlations
+- Zero missing values across all datasets
+- 100% referential integrity maintained between tables
+- Business logic validation for all calculated metrics
+- Realistic data patterns with seasonal and weather correlations
 
 ---
 
@@ -276,9 +244,3 @@ This end-to-end analytics project demonstrates:
 **I Padmashree**  
 **Email:** [iipadmashreeee@gmail.com](mailto:iipadmashreeee@gmail.com)  
 **LinkedIn:** [www.linkedin.com/in/padmashree02](https://www.linkedin.com/in/padmashree02)
-
----
-
-##  License
-
-This project is intended for educational and portfolio use only.
