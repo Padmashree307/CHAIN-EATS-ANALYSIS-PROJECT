@@ -269,14 +269,16 @@ This end-to-end analytics project demonstrates:
 - **Strategic Thinking:** ROI-focused recommendations with implementation planning
 - **Professional Communication:** Executive-ready presentations and documentation
 
-**Perfect for:**  
-Data Analyst portfolios, business intelligence case studies, and demonstrating end-to-end analytical capabilities.
+---
+
+##  Author
+
+**I Padmashree**  
+**Email:** [iipadmashreeee@gmail.com](mailto:iipadmashreeee@gmail.com)  
+**LinkedIn:** [www.linkedin.com/in/padmashree02](https://www.linkedin.com/in/padmashree02)
 
 ---
 
-## 📞 Contact & Discussion
+##  License
 
-Questions about methodology or implementation?  
-Let's discuss data-driven business solutions and analytical approaches!
-
-> This project showcases the power of analytics to drive real business value through systematic data analysis and strategic recommendations.
+This project is intended for educational and portfolio use only.
