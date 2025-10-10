@@ -65,7 +65,7 @@ CHAIN-EATS-ANALYSIS-PROJECT/
 │   ├── V5-Weather Impact Analysis.png
 │   └── V6-Executive Dashboard.png
 ├── README.md
-└── Requirements.txt
+└── requirements.txt
 ```
 
 ---
